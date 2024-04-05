@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TK"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Текущий контроль" Height="450" Width="800">
     <Grid>
         <Label x:Name="lblModule1" Height="20" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Margin="40,40,0,0" Content="Разработка, администрирование и защита баз данных"></Label>
         <Label x:Name="lblModule2" Height="20" Width="500" VerticalAlignment="Top" HorizontalAlignment="Left" Padding="0" Margin="40,80,0,0" Content="Разработка модулей программного обеспечения для компьютерных систем"></Label>

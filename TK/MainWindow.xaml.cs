@@ -54,6 +54,8 @@ namespace TK {
                 else if(s>15 && s<=31) lblMark.Content = 3;
                 else if(s > 31 && s <= 55) lblMark.Content = 4;
                 else if(s > 55 && s <= 80) lblMark.Content = 5;
+
+                lblScoreSum.Content = $"Сумма баллов: {int.Parse(tbModule1.Text) + int.Parse(tbModule2.Text) + int.Parse(tbModule3.Text)}";
                 return true;
             }
 
